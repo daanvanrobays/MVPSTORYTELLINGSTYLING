@@ -1,0 +1,207 @@
+﻿
+@{
+    ViewBag.Title = "Marie Van Puyenbroeck";
+}
+<!-- Header -->
+<header id="top" class="header">
+    <div class="text-vertical-top text-main">
+        <img src="~/images/logotrans.png" />
+        <h1 class="header-text">Storytelling Styling</h1>
+        <h3 class="header-smaller-text">MARIE VAN PUYENBROECK</h3>
+        <br>
+        <a href="#portfolio" class="btn btn-dark btn-lg">Click Me!</a>
+    </div>
+</header>
+<!-- Portfolio -->
+<section id="portfolio" class="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 text-center text-main">
+                <h2>Stories</h2>
+                <p class="mobileShow pink">(Tap to see stories)</p>
+                <hr class="small">
+                <div class="row">
+                    <!-- Queen Louise Story -->
+                    <div class="col-xs-12 col-sm-12 col-md-offset-3 col-md-6 col-lg-offset-3 col-lg-6">
+                        <div class="portfolio-item view view-tenth" onclick="">
+                            <img src="~/images/queenluisa/Queen Luisa-banner-small.jpg" class="img-responsive" />
+                            <div class="mask"></div>
+                            <div class="content">
+                                <h2>Queen Luisa</h2>
+                                <p></p>
+                                <a href="@Url.Action("QueenLuisa","Stories")" class="info">See Story</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Moodswings Story -->
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="portfolio-item view view-tenth" onclick="">
+                            <img src="/images/TestIMG_0421.JPG" class="img-responsive" />
+                            <div class="mask"></div>
+                            <div class="content">
+                                <h2>Moodswings</h2>
+                                <p></p>
+                                <a href="@Url.Action("Moodswings","Stories")" class="info">See story</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 22.3 en Rose Story -->
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="portfolio-item view view-tenth" onclick="">
+                            <img src="/images/Mini (20 van 21).jpg" class="img-responsive" />
+                            <div class="mask"></div>
+                            <div class="content">
+                                <h2>22.3 en Rose</h2>
+                                <p></p>
+                                <a href="@Url.Action("Twentytwothree","Stories")" class="info">See story</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Masked Story -->
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="portfolio-item view view-tenth" onclick="">
+                            <img src="/images/Lieve.jpg" class="img-responsive" />
+                            <div class="mask"></div>
+                            <div class="content">
+                                <h2>We don't see things as they are<br />We see them as we are</h2>
+                                <p></p>
+                                <a href="@Url.Action("Masked","Stories")" class="info">See story</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Holy White Story -->
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="portfolio-item view view-tenth" onclick="">
+                            <img src="/images/Marrakech 03-2016-5.jpg" class="img-responsive" />
+                            <div class="mask"></div>
+                            <div class="content">
+                                <h2>Holy White</h2>
+                                <p></p>
+                                <a href="@Url.Action("HolyWhite","Stories")" class="info">See story</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row (nested) -->
+                @*<a href="#" class="btn btn-dark">Click Me!</a>*@
+            </div>
+            <!-- /.col-lg-10 -->
+        </div>
+        <!-- /.row -->
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 text-center text-main">
+                <h2>Concepts</h2>
+                <p class="mobileShow pink">(Tap to see concepts)</p>
+                <hr class="small">
+                <div class="row">
+                    <!-- QolouredQuartet Concept -->
+                    @*<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <div class="portfolio-item view view-tenth" onclick="">
+                                <img src="~/images/qolouredquartet/everyone_is_growing412016.jpg" class="img-responsive" />
+                                <img src="~/images/linequartet-header.png" class="img-responsive" />
+                                <div class="mask"></div>
+                                <div class="content">
+                                    <h2>QolouredQuartet</h2>
+                                    <p></p>
+                                    <a href="@Url.Action("QolouredQuartet","Concepts")" class="info">See concept</a>
+                                </div>
+                            </div>
+                        </div>*@
+                    <!-- QolouredQuartet Concept -->
+                    <div class="col-xs-12 col-sm-12 col-md-push-3 col-md-6 col-lg-push-3 col-lg-6">
+                        <div class="portfolio-item view view-tenth" onclick="">
+                            <img src="~/images/everyoneisgrowing/everyone_is_growing212016.jpg" class="img-responsive" />
+                            <div class="mask"></div>
+                            <div class="content">
+                                <h2>Everyone Is Growing</h2>
+                                <p></p>
+                                <a href="@Url.Action("EveryoneIsGrowing","Concepts")" class="info">See concept</a>
+                            </div>
+                        </div>
+                    </div>
+                    @*<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="portfolio-item view view-tenth" onclick="">
+                            <img src="~/images/white-banner.jpg" class="img-responsive" />
+                            <div class="mask"></div>
+                            <div class="content">
+                                <h2>#FFFFFF</h2>
+                                <p></p>
+                                <a href="@Url.Action("FFFFFF","Concepts")" class="info">See concept</a>
+                            </div>
+                        </div>
+                    </div>*@
+                </div>
+                <!-- /.row (nested) -->
+                @*<a href="#" class="btn btn-dark">Click Me!</a>*@
+            </div>
+            <!-- /.col-lg-10 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
+<!-- Callout -->
+<aside class="callout">
+    <div class="text-vertical-center text-main">
+        <h1>Search, Sense, Style</h1>
+    </div>
+</aside>
+<section id="services" class="services mvp-style">
+    <div class="container">
+        <div class="row text-center text-main">
+            <div class="col-lg-10 col-lg-offset-1">
+                <h2>MARIE VAN PUYENBROECK</h2>
+                <hr class="small">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-item">
+                            <a href="@Url.Action("Index","About")">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-camera fa-stack-1x text-primary"></i>
+                                </span>
+                                <h4 class="text-main">
+                                    <strong>About</strong>
+                                </h4>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-item">
+                            <a href="@Url.Action("Index","Follow")">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-thumbs-o-up fa-stack-1x text-primary"></i>
+                                </span>
+                                <h4 class="text-main">
+                                    <strong>Follow & Contact</strong>
+                                </h4>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-item">
+                            <a href="@Url.Action("Index","Ysow")">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-commenting-o fa-stack-1x text-primary"></i>
+                                </span>
+                                <h4 class="text-main">
+                                    <strong>Your Story, Our World</strong>
+                                </h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row (nested) -->
+            </div>
+            <!-- /.col-lg-10 -->
+        </div>
+        <!-- /.row -->
+        <hr />
+        <div class="row text-center">
+            <img src="~/images/logo-small.jpg" />
+        </div>
+    </div>
+    <!-- /.container -->
+</section>

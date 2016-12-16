@@ -1,0 +1,357 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+h1, h2 {
+    color: #B55F96;
+}
+
+.pink {
+    color: #B55F96;
+}
+
+ul {
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+.active-nav span {
+    color: #222;
+}
+
+.navbar-stories {
+    position: fixed;
+    background: rgba(255, 255, 255, 0);
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 16px;
+}
+
+#navigation, .navbar .navbar-default {
+    background: url(../images/rozewolk1.jpg) no-repeat center center scroll;
+    background-size: cover;
+}
+
+.home a {
+    color: #fff;
+}
+
+textarea {
+    resize: none;
+}
+
+.form-item {
+    color: #B55F96;
+}
+
+.text-vertical-top {
+    text-align: center;
+}
+
+    .text-vertical-top .header-text {
+        font-size: 3.5em;
+        color: #fff;
+    }
+
+    .text-vertical-top .header-smaller-text {
+        color: #fff;
+    }
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+    .text-vertical-center h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 3.5em;
+        color: #fff;
+    }
+
+    .text-vertical-center h3 {
+        color: #fff;
+    }
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(255,153,204,0.7);
+}
+
+    .btn-dark:hover, .btn-dark:focus, .btn-dark:active {
+        color: #fff;
+        background-color: rgba(255,102,153,0.7);
+    }
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: #fff;
+}
+
+    .btn-light:hover, .btn-light:focus, .btn-light:active {
+        color: #333;
+        background-color: rgba(255,255,255,0.8);
+    }
+
+hr.small {
+    max-width: 100px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    margin-left: -300px;
+    overflow-y: auto;
+    background: #222;
+    -webkit-transition: all .4s ease 0;
+    -moz-transition: all .4s ease 0;
+    -ms-transition: all .4s ease 0;
+    -o-transition: all .4s ease 0;
+    transition: all .4s ease 0;
+}
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+    .sidebar-nav li {
+        text-indent: 20px;
+        line-height: 40px;
+    }
+
+        .sidebar-nav li a {
+            display: block;
+            text-decoration: none;
+            color: #999;
+        }
+
+            .sidebar-nav li a:hover {
+                text-decoration: none;
+                color: #fff;
+                background: rgba(255,255,255,0.2);
+            }
+
+            .sidebar-nav li a:active, .sidebar-nav li a:focus {
+                text-decoration: none;
+            }
+
+    .sidebar-nav > .sidebar-brand {
+        height: 55px;
+        font-size: 18px;
+        line-height: 55px;
+    }
+
+        .sidebar-nav > .sidebar-brand a {
+            color: #999;
+        }
+
+            .sidebar-nav > .sidebar-brand a:hover {
+                color: #fff;
+                background: none;
+            }
+
+#menu-toggle {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#sidebar-wrapper.active {
+    left: 300px;
+    width: 300px;
+    -webkit-transition: all .4s ease 0;
+    -moz-transition: all .4s ease 0;
+    -ms-transition: all .4s ease 0;
+    -o-transition: all .4s ease 0;
+    transition: all .4s ease 0;
+}
+
+.toggle {
+    margin: 5px 5px 5px 5px;
+}
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../images/Marrakech-7.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.header-stories {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.ysow {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.moodswings {
+    background: url(../images/moodswings/header.jpg) no-repeat center center scroll;
+}
+
+.enrose223 {
+    background: url(../images/22-3enrose/header.jpg) no-repeat center center scroll;
+}
+
+.masked {
+    background: url(../images/masked/header.jpg) no-repeat center center scroll;
+}
+
+.holywhite {
+    background: url(../images/marrakech/header.jpg) no-repeat center center scroll;
+}
+
+.qolouredquartet {
+    background: url(../images/qolouredquartet/linequartet.png) no-repeat center center scroll;
+}
+
+.everyoneisgrowing {
+    background: url(../images/everyoneisgrowing/everyone_is_growing-banner.png) no-repeat center center scroll;
+}
+
+.ffffff {
+    background: url(../images/FFFFFF/white-banner.jpg) no-repeat center center scroll;
+}
+
+.queenluisa {
+    background: url('../images/queenluisa/Queen Luisa-banner.jpg') no-repeat center center scroll;
+}
+
+.aboutmarie {
+    background: url(../images/logo-large.jpg) no-repeat center center scroll;
+    background-size: contain;
+}
+
+.about {
+    padding: 50px 0;
+}
+
+.mvp-style {
+    background-color: #fff;
+}
+
+.services {
+    padding: 50px 0;
+    color: #B55F96;
+}
+
+.service-item {
+    margin-bottom: 30px;
+    color: #B55F96;
+}
+
+    .service-item a {
+        color: #B55F96;
+    }
+
+.callout {
+    display: table;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    background: url(../images/rozewolk1.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.portfolio {
+    padding: 50px 0;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.img-portfolio {
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    -ms-transition: all .7s ease-in-out;
+    margin: 0 auto;
+}
+
+    .img-portfolio:hover {
+        opacity: .6;
+    }
+
+.call-to-action {
+    padding: 50px 0;
+}
+
+    .call-to-action .btn {
+        margin: 10px;
+    }
+
+footer {
+    padding: 100px 0;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+
+select.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}

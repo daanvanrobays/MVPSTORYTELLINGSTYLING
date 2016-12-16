@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewBag.Title</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="@Url.Content("/css/bootstrap.min.css")" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="@Url.Content("/css/stylish-portfolio.css")" rel="stylesheet">
+    <link href="@Url.Content("/css/mvp.css")" rel="stylesheet">
+    <link href="@Url.Content("/css/lightbox.css")" rel="stylesheet">
+    <link href="@Url.Content("/font-awesome/css/font-awesome.min.css")" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav text-main">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-left toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="@Url.Action("Index","Home")" onclick=$("#menu-close").click();>Home</a>
+            </li>
+            <li>
+                <a>Stories</a>
+                <ul>
+                    <li>
+                        <a href="@Url.Action("Moodswings","Stories")">Moodswings</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Twentytwothree","Stories")">22.3 en Rose</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Masked","Stories")">Masked</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("HolyWhite","Stories")">Holy White</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("QueenLuisa","Stories")">Queen Luisa</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a>Concepts</a>
+                <ul>
+                    @*<li>
+                        <a href="@Url.Action("QolouredQuartet","Concepts")">QolouredQuartet</a>
+                    </li>*@
+                    <li>
+                        <a href="@Url.Action("EveryoneIsGrowing","Concepts")">Everyone is growing</a>
+                    </li>
+                    @*<li>
+                        <a href="@Url.Action("FFFFFF","Concepts")">#FFFFFF</a>
+                    </li>*@
+                </ul>
+            </li>
+            <li>
+                <a>MARIE VAN PUYENBROECK</a>
+                <ul>
+                    <li>
+                        <a href="@Url.Action("Index","About")">About</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Index","Follow")">Follow & Contact</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Index","Ysow")">Your story, our world</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    @RenderBody()
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <p class="text-muted">Copyright &copy; Marie Van Puyenbroeck</p>
+                    <p class="text-muted">Site by: <a href="mailto:vanrobays.daan@hotmail.com">Daan Van Robays</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- WebFonts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+    <script>
+        WebFont.load({
+            custom: {
+                families: ['andale-mono', 'helvetica-neue-light', 'simsun-extb', ]
+            }
+        });
+    </script>
+    <!-- jQuery -->
+    <script src="/js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+    <!-- Masonry JavaScript -->
+    <script src="~/js/imagesloaded.pkgd.min.js"></script>
+    <script src="~/js/masonry.pkgd.min.js"></script>
+    <!-- Lightbox JavaScript -->
+    <script src="/js/lightbox.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/pace.js"></script>
+    <script src="/js/mvp.js"></script>
+    <script src="/js/googleanalytics.js"></script>
+    <script>
+        // Activates the Carousel
+        $('.carousel').carousel({
+            interval: 5000
+        })
+        //Lightbox options
+        lightbox.option({
+            'alwaysShowNavOnTouchDevices': true,
+            'wrapAround': true,
+            'albumLabel': ''
+        });
+    </script>
+</body>
+</html>

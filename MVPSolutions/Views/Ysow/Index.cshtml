@@ -1,0 +1,48 @@
+﻿@model MVPSolutions.Models.MailModels
+@{
+    ViewBag.Title = "Your Story, Our World";
+}
+<header id="top">
+    <div class="text-vertical-top text-main header-stories">
+        <h1>Your Story, Our World </h1>
+        <h2>Tell me your story & let’s create our world together</h2>
+    </div>
+</header>
+<hr />
+<!-- Portfolio -->
+<section id="ysow" class="header-stories">
+    <div class="text-vertical-center text-main">
+        @using (Html.BeginForm("Index", "Ysow", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @id = "contact-form", role = "form" }))
+            {
+            @Html.ValidationSummary()
+            <fieldset>
+                <div class="row">
+                    <label class="form-item" for="name">*Your name:</label><br />
+                    @Html.TextBoxFor(m => m.Name, new { @placeholder = "Name", @type = "text", @size = 30 })
+                    <br />
+                </div>
+                <div class="row">
+                    <label class="form-item" for="lastname">*Your lastname:</label><br />
+                    @Html.TextBoxFor(m => m.Lastname, new { @placeholder = "Lastname", @type = "text", @size = 30 })
+                    <br />
+                </div>
+                <div class="row">
+                    <label class="form-item" for="email">*Your email:</label><br />
+                    @Html.TextBoxFor(m => m.Email, new { @placeholder = "Email Address", @type = "email", @size = 30 })
+                    <br />
+                </div>
+                <div class="row">
+                    <label class="form-item" for="idea">*Your idea:</label><br />
+                    @Html.TextAreaFor(m => m.Idea, new { @placeholder = "Idea", @cols = 30, @rows = 9 })
+                    <br />
+                </div>
+                <div class="button-wrapper">
+                    <input type="submit" value="Send" name="submit" class="button" />
+                </div>
+            </fieldset>
+                <br />
+                <p class="small">* are required fields.</p>
+        }
+    </div>
+    <!-- /.container -->
+</section>
