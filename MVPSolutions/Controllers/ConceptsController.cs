@@ -9,10 +9,10 @@ namespace MVPSolutions.Controllers
     public class ConceptsController : Controller
     {
         // GET: Concepts
-        //public ActionResult QolouredQuartet()
-        //{
-        //    return View();
-        //}
+        public ActionResult QolouredQuartet()
+        {
+            return View();
+        }
         public ActionResult EveryoneIsGrowing()
         {
             return View();

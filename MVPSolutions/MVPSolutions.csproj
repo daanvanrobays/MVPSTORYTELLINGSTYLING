@@ -280,6 +280,7 @@
     <Content Include="images\FFFFFF\white-11.jpg" />
     <Content Include="images\FFFFFF\white-12.jpg" />
     <Content Include="images\FFFFFF\white-13.jpg" />
+    <Content Include="images\FFFFFF\white-14.jpg" />
     <Content Include="images\FFFFFF\white-2.jpg" />
     <Content Include="images\FFFFFF\white-3.jpg" />
     <Content Include="images\FFFFFF\white-4.jpg" />
@@ -305,10 +306,12 @@
     <Content Include="images\moodswings\TestIMG_0302.JPG" />
     <Content Include="images\next.png" />
     <Content Include="images\prev.png" />
-    <Content Include="images\qolouredquartet\everyone_is_growing372016.jpg" />
-    <Content Include="images\qolouredquartet\everyone_is_growing402016.jpg" />
-    <Content Include="images\qolouredquartet\everyone_is_growing412016.jpg" />
-    <Content Include="images\qolouredquartet\everyone_is_growing462016.jpg" />
+    <Content Include="images\qolouredquartet-small.jpg" />
+    <Content Include="images\qolouredquartet\qolouredquartet.jpg" />
+    <Content Include="images\qolouredquartet\qolouredquartet372016.jpg" />
+    <Content Include="images\qolouredquartet\qolouredquartet402016.jpg" />
+    <Content Include="images\qolouredquartet\qolouredquartet412016.jpg" />
+    <Content Include="images\qolouredquartet\qolouredquartet462016.jpg" />
     <Content Include="images\qolouredquartet\linequartet.png" />
     <Content Include="images\queenluisa\Queen Luisa-10.jpg" />
     <Content Include="images\queenluisa\Queen Luisa-11.jpg" />
