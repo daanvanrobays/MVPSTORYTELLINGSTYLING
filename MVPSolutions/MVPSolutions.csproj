@@ -227,12 +227,18 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Migrations\201701151148477_initial.cs" />
+    <Compile Include="Migrations\201701151148477_initial.Designer.cs">
+      <DependentUpon>201701151148477_initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\MailModels.cs" />
-    <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\MVPContext\MvpContext.cs" />
+    <Compile Include="Models\MVPModels\Concepts.cs" />
+    <Compile Include="Models\MVPModels\Credits.cs" />
+    <Compile Include="Models\MVPModels\Pics.cs" />
+    <Compile Include="Models\MVPModels\Stories.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Models\Providers\ApplicationOAuthProvider.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -390,6 +396,7 @@
     <Content Include="fonts\helvetica-neue-light.ttf" />
     <Content Include="fonts\andale-mono.ttf" />
     <Content Include="fonts\simsun-extb.ttf" />
+    <Content Include="ClassDiagram1.cd" />
     <None Include="Properties\PublishProfiles\Azure Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\mvpstorytellingstyling.be.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -454,6 +461,11 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201701151148477_initial.resx">
+      <DependentUpon>201701151148477_initial.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
