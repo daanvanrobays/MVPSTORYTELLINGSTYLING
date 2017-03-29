@@ -21,5 +21,9 @@ namespace MVPSolutions.Controllers
         {
             return View();
         }
+        public ActionResult PuffMomma()
+        {
+            return View();
+        }
     }
 }
