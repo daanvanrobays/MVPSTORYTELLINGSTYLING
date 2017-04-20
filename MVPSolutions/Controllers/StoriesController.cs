@@ -27,5 +27,10 @@ namespace MVPSolutions.Controllers
         {
             return View();
         }
+
+        public ActionResult ANewUtopia()
+        {
+            return View();
+        }
     }
 }

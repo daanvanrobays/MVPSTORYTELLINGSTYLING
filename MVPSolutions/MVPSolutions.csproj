@@ -263,6 +263,28 @@
     <Content Include="images\22-3enrose\22.3enRose_9.jpg" />
     <Content Include="images\22-3enrose\header.jpg" />
     <Content Include="images\aboutmarie.jpg" />
+    <Content Include="images\anewutopia\1.jpg" />
+    <Content Include="images\anewutopia\10.jpg" />
+    <Content Include="images\anewutopia\11.jpg" />
+    <Content Include="images\anewutopia\12.jpg" />
+    <Content Include="images\anewutopia\13.jpg" />
+    <Content Include="images\anewutopia\14.jpg" />
+    <Content Include="images\anewutopia\15.jpg" />
+    <Content Include="images\anewutopia\16.jpg" />
+    <Content Include="images\anewutopia\17.jpg" />
+    <Content Include="images\anewutopia\18.jpg" />
+    <Content Include="images\anewutopia\19.jpg" />
+    <Content Include="images\anewutopia\2.jpg" />
+    <Content Include="images\anewutopia\20.jpg" />
+    <Content Include="images\anewutopia\3.jpg" />
+    <Content Include="images\anewutopia\4.jpg" />
+    <Content Include="images\anewutopia\5.jpg" />
+    <Content Include="images\anewutopia\6.jpg" />
+    <Content Include="images\anewutopia\7.jpg" />
+    <Content Include="images\anewutopia\8.jpg" />
+    <Content Include="images\anewutopia\9.jpg" />
+    <Content Include="images\anewutopia\header.jpg" />
+    <Content Include="images\anewutopia\small.jpg" />
     <Content Include="images\close.png" />
     <Content Include="images\everyoneisgrowing\everyone_is_growing152016.jpg" />
     <Content Include="images\everyoneisgrowing\everyone_is_growing182016.jpg" />
@@ -455,6 +477,7 @@
     <Content Include="Views\Stories\QueenLuisa.cshtml" />
     <Content Include="Views\Concepts\FFFFFF.cshtml" />
     <Content Include="Views\Concepts\PuffMomma.cshtml" />
+    <Content Include="Views\Stories\ANewUtopia.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
