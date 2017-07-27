@@ -327,6 +327,8 @@
     <Content Include="images\marrakech\Marrakech 03-2016-5.jpg" />
     <Content Include="images\moodswings\TestIMG_0228.JPG" />
     <Content Include="images\moodswings\TestIMG_0302.JPG" />
+    <Content Include="images\MVPStorytellingstyling_SOC_small_header.jpg" />
+    <Content Include="images\MVPStorytellingstyling_TOAK_small_header.jpg" />
     <Content Include="images\next.png" />
     <Content Include="images\prev.png" />
     <Content Include="images\puffmomma-small.jpg" />
@@ -370,6 +372,32 @@
     <Content Include="images\moodswings\TestIMG_0421.JPG" />
     <Content Include="images\moodswings\TestIMG_0428.JPG" />
     <Content Include="images\secondheader.jpg" />
+    <Content Include="images\soulofcultures\MVPStorytellingstyling_SOC1.jpg" />
+    <Content Include="images\soulofcultures\MVPStorytellingstyling_SOC10.jpg" />
+    <Content Include="images\soulofcultures\MVPStorytellingstyling_SOC11.jpg" />
+    <Content Include="images\soulofcultures\MVPStorytellingstyling_SOC13.jpg" />
+    <Content Include="images\soulofcultures\MVPStorytellingstyling_SOC15.jpg" />
+    <Content Include="images\soulofcultures\MVPStorytellingstyling_SOC17.jpg" />
+    <Content Include="images\soulofcultures\MVPStorytellingstyling_SOC2.jpg" />
+    <Content Include="images\soulofcultures\MVPStorytellingstyling_SOC22.jpg" />
+    <Content Include="images\soulofcultures\MVPStorytellingstyling_SOC4.jpg" />
+    <Content Include="images\soulofcultures\MVPStorytellingstyling_SOC4header.jpg" />
+    <Content Include="images\soulofcultures\MVPStorytellingstyling_SOC5.jpg" />
+    <Content Include="images\soulofcultures\MVPStorytellingstyling_SOC6.jpg" />
+    <Content Include="images\twoofakind\MVPstorytellingstyling_TOAK %281 of 1%29.jpg" />
+    <Content Include="images\twoofakind\MVPstorytellingstyling_TOAK %281 of 12%29.jpg" />
+    <Content Include="images\twoofakind\MVPstorytellingstyling_TOAK %2810 of 12%29.jpg" />
+    <Content Include="images\twoofakind\MVPstorytellingstyling_TOAK %2811 of 12%29.jpg" />
+    <Content Include="images\twoofakind\MVPstorytellingstyling_TOAK %2812 of 12%29.jpg" />
+    <Content Include="images\twoofakind\MVPstorytellingstyling_TOAK %282 of 12%29.jpg" />
+    <Content Include="images\twoofakind\MVPstorytellingstyling_TOAK %283 of 12%29.jpg" />
+    <Content Include="images\twoofakind\MVPstorytellingstyling_TOAK %284 of 12%29.jpg" />
+    <Content Include="images\twoofakind\MVPstorytellingstyling_TOAK %285 of 12%29.jpg" />
+    <Content Include="images\twoofakind\MVPstorytellingstyling_TOAK %286 of 12%29.jpg" />
+    <Content Include="images\twoofakind\MVPstorytellingstyling_TOAK %287 of 12%29.jpg" />
+    <Content Include="images\twoofakind\MVPstorytellingstyling_TOAK %288 of 12%29.jpg" />
+    <Content Include="images\twoofakind\MVPstorytellingstyling_TOAK %289 of 12%29.jpg" />
+    <Content Include="images\twoofakind\MVPstorytellingstyling_TOAK header.jpg" />
     <Content Include="images\vulcano.jpg" />
     <Content Include="images\Lieve.jpg" />
     <Content Include="images\Marrakech 03-2016-5.jpg" />
@@ -478,6 +506,8 @@
     <Content Include="Views\Concepts\FFFFFF.cshtml" />
     <Content Include="Views\Concepts\PuffMomma.cshtml" />
     <Content Include="Views\Stories\ANewUtopia.cshtml" />
+    <Content Include="Views\Concepts\SoulOfCultures.cshtml" />
+    <Content Include="Views\Concepts\TwoOfaKind.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

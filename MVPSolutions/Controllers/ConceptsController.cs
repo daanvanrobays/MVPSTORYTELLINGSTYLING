@@ -25,5 +25,13 @@ namespace MVPSolutions.Controllers
         {
             return View();
         }
+        public ActionResult SoulOfCultures()
+        {
+            return View();
+        }
+        public ActionResult TwoOfaKind()
+        {
+            return View();
+        }
     }
 }
