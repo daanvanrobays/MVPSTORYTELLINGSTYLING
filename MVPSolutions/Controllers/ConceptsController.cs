@@ -33,5 +33,13 @@ namespace MVPSolutions.Controllers
         {
             return View();
         }
+        public ActionResult NothingToConfess()
+        {
+            return View();
+        }
+        public ActionResult Reverie()
+        {
+            return View();
+        }
     }
 }

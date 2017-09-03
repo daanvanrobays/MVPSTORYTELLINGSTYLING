@@ -247,6 +247,14 @@ hr.small {
     background: url(../images/everyoneisgrowing/MVPStorytellingstyling_EIG_header.png) no-repeat center center scroll;
 }
 
+.nothingtoconfess {
+    background: url(../images/nothingtoconfess/MVPStorytellingStyling_NTC_3_Header.jpg) no-repeat center center scroll;
+}
+
+.reverie {
+    background: url(../images/reverie/MVPStorytellingStyling_R_2_Header.jpg) no-repeat center center scroll;
+}
+
 .puffmomma {
     background: url(../images/puffmomma/MVPstorytellingstyling_PM_header.jpg) no-repeat center center scroll;
 }

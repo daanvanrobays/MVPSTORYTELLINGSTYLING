@@ -312,6 +312,9 @@
     <Content Include="images\FFFFFF\MVPStorytellingstyling_FFF8.jpg" />
     <Content Include="images\FFFFFF\MVPStorytellingstyling_FFF9.jpg" />
     <Content Include="images\FFFFFF\MVPStorytellingstyling_FFF_header.jpg" />
+    <Content Include="images\homethumbs\MVPStyling_NTC_3_Header.jpg" />
+    <Content Include="images\homethumbs\MVPStorytellingStyling_R_2_Header.jpg" />
+    <Content Include="images\homethumbs\MVPStorytellingStyling_R_5_Header.jpg" />
     <Content Include="images\linequartet-header.png" />
     <Content Include="images\loading.gif" />
     <Content Include="images\logo-small.jpg" />
@@ -331,6 +334,14 @@
     <Content Include="images\MVPStorytellingstyling_SOC_small_header.jpg" />
     <Content Include="images\MVPStorytellingstyling_TOAK_small_header.jpg" />
     <Content Include="images\next.png" />
+    <Content Include="images\nothingtoconfess\MVPStorytellingStyling_NTC_1.jpg" />
+    <Content Include="images\nothingtoconfess\MVPStorytellingStyling_NTC_2.jpg" />
+    <Content Include="images\nothingtoconfess\MVPStorytellingStyling_NTC_3.jpg" />
+    <Content Include="images\nothingtoconfess\MVPStorytellingStyling_NTC_3_Header.jpg" />
+    <Content Include="images\nothingtoconfess\MVPStorytellingStyling_NTC_4.jpg" />
+    <Content Include="images\nothingtoconfess\MVPStorytellingStyling_NTC_5.jpg" />
+    <Content Include="images\nothingtoconfess\MVPStorytellingStyling_NTC_6.jpg" />
+    <Content Include="images\nothingtoconfess\MVPStorytellingStyling_NTC_7.jpg" />
     <Content Include="images\prev.png" />
     <Content Include="images\puffmomma-small.jpg" />
     <Content Include="images\puffmomma\MVPStorytellingstyling_PM1.jpg" />
@@ -365,6 +376,15 @@
     <Content Include="images\queenluisa\MVPStorytellingstyling_QL9.jpg" />
     <Content Include="images\queenluisa\Queen Luisa-banner-small.jpg" />
     <Content Include="images\queenluisa\MVPStorytellingstyling_QL_header.jpg" />
+    <Content Include="images\reverie\MVPStorytellingStyling_R_1.jpg" />
+    <Content Include="images\reverie\MVPStorytellingStyling_R_10.jpg" />
+    <Content Include="images\reverie\MVPStorytellingStyling_R_2.jpg" />
+    <Content Include="images\reverie\MVPStorytellingStyling_R_2_Header.jpg" />
+    <Content Include="images\reverie\MVPStorytellingStyling_R_5.jpg" />
+    <Content Include="images\reverie\MVPStorytellingStyling_R_5_Header.jpg" />
+    <Content Include="images\reverie\MVPStorytellingStyling_R_7.jpg" />
+    <Content Include="images\reverie\MVPStorytellingStyling_R_8.jpg" />
+    <Content Include="images\reverie\MVPStorytellingStyling_R_9.jpg" />
     <Content Include="images\rozewolk1.jpg" />
     <Content Include="images\moodswings\MVPStorytellingstyling_MS_header.jpg" />
     <Content Include="images\moodswings\MVPStorytellingstyling_MS0269.JPG" />
@@ -456,6 +476,8 @@
     <Content Include="fonts\andale-mono.ttf" />
     <Content Include="fonts\simsun-extb.ttf" />
     <None Include="Properties\PublishProfiles\Azure Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\mvpstorytellingstyling - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\Azure mvp.pubxml" />
     <None Include="Properties\PublishProfiles\mvpstorytellingstyling.be.pubxml" />
     <None Include="Properties\PublishProfiles\mvpstyling.be - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -510,6 +532,8 @@
     <Content Include="Views\Stories\ANewUtopia.cshtml" />
     <Content Include="Views\Concepts\SoulOfCultures.cshtml" />
     <Content Include="Views\Concepts\TwoOfaKind.cshtml" />
+    <Content Include="Views\Concepts\NothingToConfess.cshtml" />
+    <Content Include="Views\Concepts\Reverie.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
