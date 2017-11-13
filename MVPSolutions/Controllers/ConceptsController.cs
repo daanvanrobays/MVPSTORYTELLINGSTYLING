@@ -41,5 +41,9 @@ namespace MVPSolutions.Controllers
         {
             return View();
         }
+        public ActionResult BabyBoy()
+        {
+            return View();
+        }
     }
 }

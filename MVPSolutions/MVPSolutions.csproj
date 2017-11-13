@@ -285,6 +285,19 @@
     <Content Include="images\anewutopia\MVPStorytellingstyling_ANU9.jpg" />
     <Content Include="images\anewutopia\MVPStorytellingstyling_ANU_header.jpg" />
     <Content Include="images\anewutopia\small.jpg" />
+    <Content Include="images\homethumbs\MVPStorytellingstyling-BB-header-small.jpg" />
+    <Content Include="images\babyboy\MVPStorytellingstyling-BB-header.jpg" />
+    <Content Include="images\babyboy\MVPStorytellingstyling_BB-1.jpg" />
+    <Content Include="images\babyboy\MVPStorytellingstyling_BB-10.jpg" />
+    <Content Include="images\babyboy\MVPStorytellingstyling_BB-11.jpg" />
+    <Content Include="images\babyboy\MVPStorytellingstyling_BB-2.jpg" />
+    <Content Include="images\babyboy\MVPStorytellingstyling_BB-3.jpg" />
+    <Content Include="images\babyboy\MVPStorytellingstyling_BB-4.jpg" />
+    <Content Include="images\babyboy\MVPStorytellingstyling_BB-5.jpg" />
+    <Content Include="images\babyboy\MVPStorytellingstyling_BB-6.jpg" />
+    <Content Include="images\babyboy\MVPStorytellingstyling_BB-7.jpg" />
+    <Content Include="images\babyboy\MVPStorytellingstyling_BB-8.jpg" />
+    <Content Include="images\babyboy\MVPStorytellingstyling_BB-9.jpg" />
     <Content Include="images\close.png" />
     <Content Include="images\everyoneisgrowing\MVPStorytellingstyling_EIG152016.jpg" />
     <Content Include="images\everyoneisgrowing\MVPStorytellingstyling_EIG182016.jpg" />
@@ -534,6 +547,7 @@
     <Content Include="Views\Concepts\TwoOfaKind.cshtml" />
     <Content Include="Views\Concepts\NothingToConfess.cshtml" />
     <Content Include="Views\Concepts\Reverie.cshtml" />
+    <Content Include="Views\Concepts\BabyBoy.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
