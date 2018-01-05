@@ -341,6 +341,18 @@
     <Content Include="images\masked\MVPStorytellingstyling_MASK_header.jpg" />
     <Content Include="images\masked\MVPStorytellingstyling_MASK1.jpg" />
     <Content Include="images\marrakech\MVPStorytellingstyling_HW03-2016-5.jpg" />
+    <Content Include="images\mmam\MVPStorytellingstyling_Ellis1.jpg" />
+    <Content Include="images\mmam\MVPStorytellingstyling_Ellis10.jpg" />
+    <Content Include="images\mmam\MVPStorytellingstyling_Ellis11.jpg" />
+    <Content Include="images\mmam\MVPStorytellingstyling_Ellis2.jpg" />
+    <Content Include="images\mmam\MVPStorytellingstyling_Ellis3.jpg" />
+    <Content Include="images\mmam\MVPStorytellingstyling_Ellis4.jpg" />
+    <Content Include="images\mmam\MVPStorytellingstyling_Ellis5.jpg" />
+    <Content Include="images\mmam\MVPStorytellingstyling_Ellis7.jpg" />
+    <Content Include="images\mmam\MVPStorytellingstyling_Ellis8.jpg" />
+    <Content Include="images\mmam\MVPStorytellingstyling_Ellis9.jpg" />
+    <Content Include="images\mmam\MVPStorytellingstyling_Ellis_header.jpg" />
+    <Content Include="images\mmam\MVPStorytellingstyling_Ellis_smallheader.jpg" />
     <Content Include="images\moodswings\MVPStorytellingstyling_MS0228.JPG" />
     <Content Include="images\moodswings\MVPStorytellingstyling_MS0302.JPG" />
     <Content Include="images\MVPStorytellingstyling_EIG212016.jpg" />
@@ -548,6 +560,7 @@
     <Content Include="Views\Concepts\NothingToConfess.cshtml" />
     <Content Include="Views\Concepts\Reverie.cshtml" />
     <Content Include="Views\Concepts\BabyBoy.cshtml" />
+    <Content Include="Views\Concepts\MadMixAndMatch.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

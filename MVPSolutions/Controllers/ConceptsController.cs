@@ -45,5 +45,9 @@ namespace MVPSolutions.Controllers
         {
             return View();
         }
+        public ActionResult MadMixAndMatch()
+        {
+            return View();
+        }
     }
 }
