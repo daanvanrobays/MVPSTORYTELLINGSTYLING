@@ -4,228 +4,263 @@
 }
 <!-- Header -->
 <header id="top" class="header">
-    <div class="text-vertical-top text-main">
-        <img src="~/images/logotrans.png" />
-        <h1 class="header-text">Storytelling Styling</h1>
-        <h3 class="header-smaller-text">MARIE VAN PUYENBROECK</h3>
-        <br>
-        <a href="#portfolio" class="btn btn-dark btn-lg">Click Me!</a>
+    <div class="goedele">
+        <div class="text-vertical-top text-main">
+            <h1 class="header-text">MVP Styling</h1>
+            <h3 class="header-smaller-text">MARIE VAN PUYENBROECK</h3>
+        </div>
+    </div>
+
+    <div id="mvpCarousel" class="carousel slide hidden-sm hidden-xs">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img class="fill" src="~/images/home-header/mvpstyling_heading-1.jpg" />
+            </div>
+            <div class="item">
+                <img class="fill" src="~/images/home-header/mvpstyling_heading-2.jpg" />
+            </div>
+            <div class="item">
+                <img class="fill" src="~/images/home-header/mvpstyling_heading-3.jpg" />
+            </div>
+        </div>
     </div>
 </header>
+
+
+
 <!-- Portfolio -->
 <section id="portfolio" class="portfolio">
     <div class="container">
-        <div class="row">
+        <div class="row" id="videos">
             <div class="col-lg-10 col-lg-offset-1 text-center text-main">
-                <h2>Stories</h2>
+                <h2>Videos</h2>
+                <div class="video-container">
+                    <iframe class="youtube-embed" src="https://www.youtube.com/embed/HZWgBseLPeY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="video-container">
+                    <iframe class="youtube-embed" src="https://www.youtube.com/embed/x3FFuHZ3JCw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="series">
+            <div class="col-lg-10 col-lg-offset-1 text-center text-main">
+                <h2>Series</h2>
                 <p class="mobileShow pink">(Tap to see stories)</p>
                 <hr class="small">
                 <div class="row">
+                    <!-- A Way with words Story -->
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <a href="@Url.Action("WayWithWords","Stories")">
+                            <div class="portfolio-item view view-tenth">
+                                <img src="~/images/way-header.jpg" class="img-responsive" />
+                                <div class="mask"></div>
+                                <div class="content">
+                                    <h2>A Way With Words</h2>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                     <!-- A New Utopia Story -->
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <div class="portfolio-item view view-tenth" onclick="">
-                            <img src="~/images/anewutopia/small.jpg" class="img-responsive" />
-                            <div class="mask"></div>
-                            <div class="content">
-                                <h2>A New Utopia</h2>
-                                <p></p>
-                                <a href="@Url.Action("ANewUtopia","Stories")" class="info">See Story</a>
+                        <a href="@Url.Action("ANewUtopia","Stories")">
+                            <div class="portfolio-item view view-tenth">
+                                <img src="~/images/anewutopia/small.jpg" class="img-responsive" />
+                                <div class="mask"></div>
+                                <div class="content">
+                                    <h2>A New Utopia</h2>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <!-- Queen Louise Story -->
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <div class="portfolio-item view view-tenth" onclick="">
-                            <img src="~/images/queenluisa/Queen Luisa-banner-small.jpg" class="img-responsive" />
-                            <div class="mask"></div>
-                            <div class="content">
-                                <h2>Queen Luisa</h2>
-                                <p></p>
-                                <a href="@Url.Action("QueenLuisa","Stories")" class="info">See Story</a>
+                        <a href="@Url.Action("QueenLuisa","Stories")">
+                            <div class="portfolio-item view view-tenth">
+                                <img src="~/images/queenluisa/Queen Luisa-banner-small.jpg" class="img-responsive" />
+                                <div class="mask"></div>
+                                <div class="content">
+                                    <h2>Queen Luisa</h2>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <!-- Moodswings Story -->
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <div class="portfolio-item view view-tenth" onclick="">
-                            <img src="/images/TestIMG_0421.JPG" class="img-responsive" />
-                            <div class="mask"></div>
-                            <div class="content">
-                                <h2>Moodswings</h2>
-                                <p></p>
-                                <a href="@Url.Action("Moodswings","Stories")" class="info">See story</a>
+                        <a href="@Url.Action("Moodswings","Stories")">
+                            <div class="portfolio-item view view-tenth">
+                                <img src="/images/TestIMG_0421.JPG" class="img-responsive" />
+                                <div class="mask"></div>
+                                <div class="content">
+                                    <h2>Moodswings</h2>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <!-- 22.3 en Rose Story -->
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <div class="portfolio-item view view-tenth" onclick="">
-                            <img src="/images/Mini (20 van 21).jpg" class="img-responsive" />
-                            <div class="mask"></div>
-                            <div class="content">
-                                <h2>22.3 en Rose</h2>
-                                <p></p>
-                                <a href="@Url.Action("Twentytwothree","Stories")" class="info">See story</a>
+                        <a href="@Url.Action("Twentytwothree","Stories")">
+                            <div class="portfolio-item view view-tenth">
+                                <img src="/images/Mini (20 van 21).jpg" class="img-responsive" />
+                                <div class="mask"></div>
+                                <div class="content">
+                                    <h2>22.3 en Rose</h2>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <!-- Masked Story -->
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <div class="portfolio-item view view-tenth" onclick="">
-                            <img src="/images/Lieve.jpg" class="img-responsive" />
-                            <div class="mask"></div>
-                            <div class="content">
-                                <h2>We don't see things as they are<br />We see them as we are</h2>
-                                <p></p>
-                                <a href="@Url.Action("Masked","Stories")" class="info">See story</a>
+                        <a href="@Url.Action("Masked","Stories")">
+                            <div class="portfolio-item view view-tenth">
+                                <img src="/images/Lieve.jpg" class="img-responsive" />
+                                <div class="mask"></div>
+                                <div class="content">
+                                    <h2>We don't see things as they are<br />We see them as we are</h2>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <!-- Holy White Story -->
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <div class="portfolio-item view view-tenth" onclick="">
-                            <img src="/images/Marrakech 03-2016-5.jpg" class="img-responsive" />
-                            <div class="mask"></div>
-                            <div class="content">
-                                <h2>Holy White</h2>
-                                <p></p>
-                                <a href="@Url.Action("HolyWhite","Stories")" class="info">See story</a>
+
+                        <a href="@Url.Action("HolyWhite","Stories")">
+                            <div class="portfolio-item view view-tenth">
+                                <img src="/images/Marrakech 03-2016-5.jpg" class="img-responsive" />
+                                <div class="mask"></div>
+                                <div class="content">
+                                    <h2>Holy White</h2>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
-                </div>
-                <!-- /.row (nested) -->
-            </div>
-            <!-- /.col-lg-10 -->
-        </div>
-        <!-- /.row -->
-        <div class="row">
-            <div class="col-lg-10 col-lg-offset-1 text-center text-main">
-                <h2>Concepts</h2>
-                <p class="mobileShow pink">(Tap to see concepts)</p>
-                <hr class="small">
-                <div class="row">
                     <!-- Mad Mix & Match Concept -->
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <div class="portfolio-item view view-tenth" onclick="">
-                            <img src="~/images/mmam/MVPStorytellingstyling_Ellis_smallheader.jpg" class="img-responsive" />
-                            <div class="mask"></div>
-                            <div class="content">
-                                <h2>Mad Mix &amp; Match</h2>
-                                <p></p>
-                                <a href="@Url.Action("MadMixAndMatch","Concepts")" class="info">See concept</a>
+                        <a href="@Url.Action("MadMixAndMatch","Concepts")">
+                            <div class="portfolio-item view view-tenth">
+                                <img src="~/images/mmam/MVPStorytellingstyling_Ellis_smallheader.jpg" class="img-responsive" />
+                                <div class="mask"></div>
+                                <div class="content">
+                                    <h2>Mad Mix &amp; Match</h2>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <!-- Baby Boy Concept -->
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <div class="portfolio-item view view-tenth" onclick="">
-                            <img src="~/images/homethumbs/MVPStorytellingstyling-BB-header-small.jpg" class="img-responsive" />
-                            <div class="mask"></div>
-                            <div class="content">
-                                <h2>Baby Boy</h2>
-                                <p></p>
-                                <a href="@Url.Action("BabyBoy","Concepts")" class="info">See concept</a>
+                        <a href="@Url.Action("BabyBoy","Concepts")">
+                            <div class="portfolio-item view view-tenth">
+                                <img src="~/images/homethumbs/MVPStorytellingstyling-BB-header-small.jpg" class="img-responsive" />
+                                <div class="mask"></div>
+                                <div class="content">
+                                    <h2>Baby Boy</h2>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <!-- Nothing To Confess Concept -->
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <div class="portfolio-item view view-tenth" onclick="">
-                            <img src="~/images/homethumbs/MVPStyling_NTC_3_Header.jpg" class="img-responsive" />
-                            <div class="mask"></div>
-                            <div class="content">
-                                <h2>Nothing To Confess</h2>
-                                <p></p>
-                                <a href="@Url.Action("NothingToConfess","Concepts")" class="info">See concept</a>
+                        <a href="@Url.Action("NothingToConfess","Concepts")">
+                            <div class="portfolio-item view view-tenth">
+                                <img src="~/images/homethumbs/MVPStyling_NTC_3_Header.jpg" class="img-responsive" />
+                                <div class="mask"></div>
+                                <div class="content">
+                                    <h2>Nothing To Confess</h2>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <!-- Reverie Concept -->
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <div class="portfolio-item view view-tenth" onclick="">
-                            <img src="~/images/homethumbs/MVPStorytellingStyling_R_2_Header.jpg" class="img-responsive" />
-                            <div class="mask"></div>
-                            <div class="content">
-                                <h2>Rêverie</h2>
-                                <p></p>
-                                <a href="@Url.Action("Reverie","Concepts")" class="info">See concept</a>
+                        <a href="@Url.Action("Reverie","Concepts")">
+                            <div class="portfolio-item view view-tenth">
+                                <img src="~/images/homethumbs/MVPStorytellingStyling_R_2_Header.jpg" class="img-responsive" />
+                                <div class="mask"></div>
+                                <div class="content">
+                                    <h2>Rêverie</h2>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <!-- Two Of a Kind Concept -->
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <div class="portfolio-item view view-tenth" onclick="">
-                            <img src="~/images/MVPStorytellingStyling_TOAK_small_header.jpg" class="img-responsive" />
-                            <div class="mask"></div>
-                            <div class="content">
-                                <h2>Two Of A Kind</h2>
-                                <p></p>
-                                <a href="@Url.Action("TwoOfaKind","Concepts")" class="info">See concept</a>
+                        <a href="@Url.Action("TwoOfaKind","Concepts")">
+                            <div class="portfolio-item view view-tenth">
+                                <img src="~/images/MVPStorytellingStyling_TOAK_small_header.jpg" class="img-responsive" />
+                                <div class="mask"></div>
+                                <div class="content">
+                                    <h2>Two Of A Kind</h2>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <!-- Soul Of Cultures Concept -->
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <div class="portfolio-item view view-tenth" onclick="">
-                            <img src="~/images/MVPStorytellingStyling_SOC_small_header.jpg" class="img-responsive" />
-                            <div class="mask"></div>
-                            <div class="content">
-                                <h2>Soul Of Cultures</h2>
-                                <p></p>
-                                <a href="@Url.Action("SoulOfCultures","Concepts")" class="info">See concept</a>
+                        <a href="@Url.Action("SoulOfCultures","Concepts")">
+                            <div class="portfolio-item view view-tenth">
+                                <img src="~/images/MVPStorytellingStyling_SOC_small_header.jpg" class="img-responsive" />
+                                <div class="mask"></div>
+                                <div class="content">
+                                    <h2>Soul Of Cultures</h2>
+
+                                </div>
                             </div>
-                        </div>
+                        </a>
+
+
                     </div>
                     <!-- Puff Momma Concept -->
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <div class="portfolio-item view view-tenth" onclick="">
-                            <img src="~/images/marie-2.jpg" class="img-responsive" />
-                            <div class="mask"></div>
-                            <div class="content">
-                                <h2>Puff Momma</h2>
-                                <p></p>
-                                <a href="@Url.Action("PuffMomma","Concepts")" class="info">See concept</a>
+                        <a href="@Url.Action("PuffMomma","Concepts")">
+                            <div class="portfolio-item view view-tenth">
+                                <img src="~/images/marie-2.jpg" class="img-responsive" />
+                                <div class="mask"></div>
+                                <div class="content">
+                                    <h2>Puff Momma</h2>
+
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <!-- QolouredQuartet Concept -->
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <div class="portfolio-item view view-tenth" onclick="">
-                            <img src="~/images/qolouredquartet-small.jpg" class="img-responsive" />
-                            <div class="mask"></div>
-                            <div class="content">
-                                <h2>QolouredQuartet</h2>
-                                <p></p>
-                                <a href="@Url.Action("QolouredQuartet","Concepts")" class="info">See concept</a>
+                        <a href="@Url.Action("QolouredQuartet","Concepts")">
+                            <div class="portfolio-item view view-tenth">
+                                <img src="~/images/qolouredquartet-small.jpg" class="img-responsive" />
+                                <div class="mask"></div>
+                                <div class="content">
+                                    <h2>QolouredQuartet</h2>
+
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <!-- QolouredQuartet Concept -->
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <div class="portfolio-item view view-tenth" onclick="">
-                            <img src="~/images/MVPStorytellingstyling_EIG212016.jpg" class="img-responsive" />
-                            <div class="mask"></div>
-                            <div class="content">
-                                <h2>Everyone Is Growing</h2>
-                                <p></p>
-                                <a href="@Url.Action("EveryoneIsGrowing","Concepts")" class="info">See concept</a>
+                        <a href="@Url.Action("EveryoneIsGrowing","Concepts")">
+                            <div class="portfolio-item view view-tenth">
+                                <img src="~/images/MVPStorytellingstyling_EIG212016.jpg" class="img-responsive" />
+                                <div class="mask"></div>
+                                <div class="content">
+                                    <h2>Everyone Is Growing</h2>
+
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <div class="portfolio-item view view-tenth" onclick="">
-                            <img src="~/images/white-banner.jpg" class="img-responsive" />
-                            <div class="mask"></div>
-                            <div class="content">
-                                <h2>#FFFFFF</h2>
-                                <p></p>
-                                <a href="@Url.Action("FFFFFF","Concepts")" class="info">See concept</a>
+                        <a href="@Url.Action("FFFFFF","Concepts")">
+                            <div class="portfolio-item view view-tenth">
+                                <img src="~/images/white-banner.jpg" class="img-responsive" />
+                                <div class="mask"></div>
+                                <div class="content">
+                                    <h2>#FFFFFF</h2>
+
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
-                <!-- /.row (nested) -->
             </div>
             <!-- /.col-lg-10 -->
         </div>
@@ -246,7 +281,7 @@
                 <h2>MARIE VAN PUYENBROECK</h2>
                 <hr class="small">
                 <div class="row">
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-6 col-sm-6">
                         <div class="service-item">
                             <a href="@Url.Action("Index","About")">
                                 <span class="fa-stack fa-4x">
@@ -259,7 +294,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-6 col-sm-6">
                         <div class="service-item">
                             <a href="@Url.Action("Index","Follow")">
                                 <span class="fa-stack fa-4x">
@@ -268,19 +303,6 @@
                                 </span>
                                 <h4 class="text-main">
                                     <strong>Follow & Contact</strong>
-                                </h4>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="service-item">
-                            <a href="@Url.Action("Index","Ysow")">
-                                <span class="fa-stack fa-4x">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-commenting-o fa-stack-1x text-primary"></i>
-                                </span>
-                                <h4 class="text-main">
-                                    <strong>Your Story, Our World</strong>
                                 </h4>
                             </a>
                         </div>

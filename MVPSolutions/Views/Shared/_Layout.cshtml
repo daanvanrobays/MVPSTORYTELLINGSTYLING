@@ -22,61 +22,14 @@
             <li class="sidebar-brand">
                 <a href="@Url.Action("Index","Home")" onclick=$("#menu-close").click();>Home</a>
             </li>
-            <li>
-                <a>Stories</a>
+            <li style="margin: 5px 0 0 0">
+                <a>MVP STYLING</a>
                 <ul>
                     <li>
-                        <a href="@Url.Action("ANewUtopia","Stories")">A New Utopia</a>
+                        <a href="@Url.Action("Index", "Home")#videos">Videos</a>
                     </li>
                     <li>
-                        <a href="@Url.Action("Moodswings","Stories")">Moodswings</a>
-                    </li>
-                    <li>
-                        <a href="@Url.Action("Twentytwothree","Stories")">22.3 en Rose</a>
-                    </li>
-                    <li>
-                        <a href="@Url.Action("Masked","Stories")">Masked</a>
-                    </li>
-                    <li>
-                        <a href="@Url.Action("HolyWhite","Stories")">Holy White</a>
-                    </li>
-                    <li>
-                        <a href="@Url.Action("QueenLuisa","Stories")">Queen Luisa</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a>Concepts</a>
-                <ul>
-                    <li>
-                        <a href="@Url.Action("MadMixAndMatch", "Concepts")">Mad Mix &amp; Match</a>
-                    </li>
-                    <li>
-                        <a href="@Url.Action("BabyBoy","Concepts")">Baby Boy</a>
-                    </li>
-                    <li>
-                        <a href="@Url.Action("NothingToConfess","Concepts")">Nothing To Confess</a>
-                    </li>
-                    <li>
-                        <a href="@Url.Action("Reverie","Concepts")">Rêverie</a>
-                    </li>
-                    <li>
-                        <a href="@Url.Action("TwoOfaKind","Concepts")">Two Of A Kind</a>
-                    </li>
-                    <li>
-                        <a href="@Url.Action("SoulOfCultures","Concepts")">Soul Of Cultures</a>
-                    </li>
-                    <li>
-                        <a href="@Url.Action("PuffMomma","Concepts")">Puff Momma</a>
-                    </li>
-                    <li>
-                        <a href="@Url.Action("QolouredQuartet","Concepts")">QolouredQuartet</a>
-                    </li>
-                    <li>
-                        <a href="@Url.Action("EveryoneIsGrowing","Concepts")">Everyone is growing</a>
-                    </li>
-                    <li>
-                        <a href="@Url.Action("FFFFFF","Concepts")">#FFFFFF</a>
+                        <a href="@Url.Action("Index", "Home")#series">Series</a>
                     </li>
                 </ul>
             </li>
@@ -88,9 +41,6 @@
                     </li>
                     <li>
                         <a href="@Url.Action("Index","Follow")">Follow & Contact</a>
-                    </li>
-                    <li>
-                        <a href="@Url.Action("Index","Ysow")">Your story, our world</a>
                     </li>
                 </ul>
             </li>
@@ -133,9 +83,9 @@
     <script src="/js/googleanalytics.js"></script>
     <script>
         //// Activates the Carousel
-        //$('.carousel').carousel({
-        //    interval: 5000
-        //})
+        $('.carousel').carousel({
+            interval: 3500
+        })
         //Lightbox options
         lightbox.option({
             'alwaysShowNavOnTouchDevices': true,

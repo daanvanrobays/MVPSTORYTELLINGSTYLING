@@ -32,5 +32,10 @@ namespace MVPSolutions.Controllers
         {
             return View();
         }
+
+        public ActionResult WayWithWords()
+        {
+            return View();
+        }
     }
 }

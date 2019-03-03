@@ -285,6 +285,9 @@
     <Content Include="images\anewutopia\MVPStorytellingstyling_ANU9.jpg" />
     <Content Include="images\anewutopia\MVPStorytellingstyling_ANU_header.jpg" />
     <Content Include="images\anewutopia\small.jpg" />
+    <Content Include="images\home-header\mvpstyling_heading-1.jpg" />
+    <Content Include="images\home-header\mvpstyling_heading-2.jpg" />
+    <Content Include="images\home-header\mvpstyling_heading-3.jpg" />
     <Content Include="images\homethumbs\MVPStorytellingstyling-BB-header-small.jpg" />
     <Content Include="images\babyboy\MVPStorytellingstyling-BB-header.jpg" />
     <Content Include="images\babyboy\MVPStorytellingstyling_BB-1.jpg" />
@@ -449,6 +452,19 @@
     <Content Include="images\Marrakech 03-2016-5.jpg" />
     <Content Include="images\Mini %2820 van 21%29.jpg" />
     <Content Include="images\TestIMG_0421.JPG" />
+    <Content Include="images\way-header.jpg" />
+    <Content Include="images\waywithwords\way-1.jpg" />
+    <Content Include="images\waywithwords\way-10.jpg" />
+    <Content Include="images\waywithwords\way-11.jpg" />
+    <Content Include="images\waywithwords\way-2.jpg" />
+    <Content Include="images\waywithwords\way-3.jpg" />
+    <Content Include="images\waywithwords\way-4.jpg" />
+    <Content Include="images\waywithwords\way-5.jpg" />
+    <Content Include="images\waywithwords\way-6.jpg" />
+    <Content Include="images\waywithwords\way-7.jpg" />
+    <Content Include="images\waywithwords\way-8.jpg" />
+    <Content Include="images\waywithwords\way-9.jpg" />
+    <Content Include="images\waywithwords\way-header.jpg" />
     <Content Include="images\white-banner.jpg" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
@@ -561,6 +577,7 @@
     <Content Include="Views\Concepts\Reverie.cshtml" />
     <Content Include="Views\Concepts\BabyBoy.cshtml" />
     <Content Include="Views\Concepts\MadMixAndMatch.cshtml" />
+    <Content Include="Views\Stories\WayWithWords.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
